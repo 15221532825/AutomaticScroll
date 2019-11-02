@@ -10,11 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    lazy var autoScrollView : AutoScrollView = {
+        
+        let scrollView = AutoScrollView.init(frame: CGRect.init(x: 0, y:200, width: self.view.frame.size.width, height:300))
+        return scrollView
+    }();
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.addSubview(self.autoScrollView);
     }
-
-
 }
+
 

@@ -15,6 +15,7 @@
 		DD111DFF236D5CAF000405D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD111DFD236D5CAF000405D0 /* LaunchScreen.storyboard */; };
 		DD111E0A236D5CAF000405D0 /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111E09236D5CAF000405D0 /* ________Tests.swift */; };
 		DD111E15236D5CAF000405D0 /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111E14236D5CAF000405D0 /* ________UITests.swift */; };
+		DD111E23236D5CEB000405D0 /* AutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111E22236D5CEB000405D0 /* AutoScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD111E10236D5CAF000405D0 /* 无限循环自动轮播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "无限循环自动轮播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD111E14236D5CAF000405D0 /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
 		DD111E16236D5CAF000405D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD111E22236D5CEB000405D0 /* AutoScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				DD111DF2236D5CAE000405D0 /* AppDelegate.swift */,
 				DD111DF4236D5CAE000405D0 /* SceneDelegate.swift */,
+				DD111E22236D5CEB000405D0 /* AutoScrollView.swift */,
 				DD111DF6236D5CAE000405D0 /* ViewController.swift */,
 				DD111DF8236D5CAE000405D0 /* Main.storyboard */,
 				DD111DFB236D5CAF000405D0 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				DD111DF7236D5CAE000405D0 /* ViewController.swift in Sources */,
 				DD111DF3236D5CAE000405D0 /* AppDelegate.swift in Sources */,
+				DD111E23236D5CEB000405D0 /* AutoScrollView.swift in Sources */,
 				DD111DF5236D5CAE000405D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
